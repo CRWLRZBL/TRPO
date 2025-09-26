@@ -1,0 +1,57 @@
+# Стандартные исключения для .NET
+**/bin/
+**/obj/
+*.user
+*.suo
+*.cache
+*.vshost.*
+
+# Файлы пакетов NuGet
+*.nupkg
+packages/
+
+# Резервные копии и временные файлы
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Файлы журналов
+*.log
+!apache/*.log
+
+# Исключения для корневой папки bin
+/bin/
+
+# Временные файлы в dist
+dist/**/tmp*
+dist/tmp*
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Файлы IDE
+.vs/
+.idea/
+*.swp
+*.swo
+
+# Файлы сборки
+/build/
+/dist/
+/out/
+
+# Файлы конфигурации среды
+.env
+.env.local
+
+# Файлы документации (если не нужны в репозитории)
+/docs/output/
+*.pdf
+*.chm
+
+# Исключения из запрета для определенных файлов
+!*.config
+!*.json
+!*.xml
